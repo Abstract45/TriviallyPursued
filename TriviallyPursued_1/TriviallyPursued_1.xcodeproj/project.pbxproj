@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E81E39B71B952F6F0013B41D /* MyFirstStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81E39B61B952F6F0013B41D /* MyFirstStruct.swift */; };
+		E81E39B91B9531E70013B41D /* InitialTableViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81E39B81B9531E70013B41D /* InitialTableViewTableViewController.swift */; };
 		E82B73EB1B9527B50022DBCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82B73EA1B9527B50022DBCC /* AppDelegate.swift */; };
 		E82B73ED1B9527B50022DBCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82B73EC1B9527B50022DBCC /* ViewController.swift */; };
 		E82B73F01B9527B50022DBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E82B73EE1B9527B50022DBCC /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E81E39B61B952F6F0013B41D /* MyFirstStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFirstStruct.swift; sourceTree = "<group>"; };
+		E81E39B81B9531E70013B41D /* InitialTableViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialTableViewTableViewController.swift; sourceTree = "<group>"; };
 		E82B73E51B9527B50022DBCC /* TriviallyPursued_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviallyPursued_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82B73E91B9527B50022DBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E82B73EA1B9527B50022DBCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,9 +84,11 @@
 				E82B73EA1B9527B50022DBCC /* AppDelegate.swift */,
 				E82B73EC1B9527B50022DBCC /* ViewController.swift */,
 				E82B73EE1B9527B50022DBCC /* Main.storyboard */,
+				E81E39B81B9531E70013B41D /* InitialTableViewTableViewController.swift */,
 				E82B73F11B9527B50022DBCC /* Images.xcassets */,
 				E82B73F31B9527B50022DBCC /* LaunchScreen.xib */,
 				E82B73E81B9527B50022DBCC /* Supporting Files */,
+				E81E39B61B952F6F0013B41D /* MyFirstStruct.swift */,
 			);
 			path = TriviallyPursued_1;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81E39B91B9531E70013B41D /* InitialTableViewTableViewController.swift in Sources */,
 				E82B73ED1B9527B50022DBCC /* ViewController.swift in Sources */,
 				E82B73EB1B9527B50022DBCC /* AppDelegate.swift in Sources */,
+				E81E39B71B952F6F0013B41D /* MyFirstStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +417,7 @@
 				E82B74061B9527B50022DBCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E82B74071B9527B50022DBCC /* Build configuration list for PBXNativeTarget "TriviallyPursued_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				E82B74091B9527B50022DBCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
